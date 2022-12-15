@@ -1,0 +1,172 @@
+$a-font: none;
+$a-color: black;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-style: symbol;
+}
+
+.container{
+    margin: 0 auto;
+    height: 100%;
+    width: 88%;
+}
+
+// header部分
+#header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+        #Furniture {
+            font-family: symbol;
+            font-weight: 900;
+            font-size: 1.2em;
+            letter-spacing: 0.03em;
+                a {
+                    text-decoration-line: none;
+                    color: black;
+                    transition: 0.5s;
+                }
+                a:hover {
+                    opacity: 0.5;
+                }
+    }
+}
+// headerここまで
+
+// mainここから
+// products、products2.htmlのみのプロパティ ここから
+.products {
+    height: 60px;
+    margin-top: 50px;
+    font-size: 14;
+}
+// products.htmlのみのプロパティ ここまで
+// about.htmlのみのプロパティ ここから
+.about {
+    height: 60px;
+    margin-top: 50px;
+    font-size: 14;
+}
+.about-contents {
+    height: px;
+}
+//  about.htmlのみのプロパティ ここまで
+
+.items-column {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+        .item {
+            width: 22%;
+            margin-bottom: 30px;
+                a {
+                    font-size: 0.7em;
+                    text-decoration-line: none;
+                    display: inline-block;
+                    transition: .3s;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    img {
+                        display: block;
+                        width: 280px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        color: black;
+                    }
+                }    
+                a:hover {
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+}
+}
+
+
+.view-more {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+        a {
+            position: relative;
+            font-weight: 100;
+            top: 20px;
+            text-decoration-line: none;
+            color: black;
+            transition: 0.5s;
+        }
+        a:hover {
+            opacity: 0.5;
+        }
+}
+
+// products.htmlのみのプロパティ ここから
+.page-num {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+        span {
+            margin-right: 30px;
+        }
+        a {
+            text-decoration-line: none;
+            color: darkslategrey;
+        }
+}
+// products.htmlのみのプロパティ ここまで
+
+// products2.htmlのみのプロパティ ここから
+.page-num2 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+        span {
+            margin-left: 30px;
+        }
+        a {
+            text-decoration-line: none;
+            color: darkslategrey;
+        }
+}
+// products2.htmlのみのプロパティ ここまで
+
+// mainここまで
+
+// footerここから
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+        ul {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+                a {
+                    text-decoration: none;
+                    font-size: 0.7em;
+                    color: black;
+                    transition: 0.5s;
+                }
+                a:hover {
+                    opacity: 0.5;
+                }
+        }
+        small {
+            font-size: 0.1em;
+        }
+}
+// footerここまで
+
+

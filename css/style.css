@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: symbol;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 88%;
+}
+
+#header {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header #Furniture {
+  font-family: symbol;
+  font-weight: 900;
+  font-size: 1.2em;
+  letter-spacing: 0.03em;
+}
+#header #Furniture a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  transition: 0.5s;
+}
+#header #Furniture a:hover {
+  opacity: 0.5;
+}
+
+.products {
+  height: 60px;
+  margin-top: 50px;
+  font-size: 14;
+}
+
+.about {
+  height: 60px;
+  margin-top: 50px;
+  font-size: 14;
+}
+
+.about-contents {
+  height: px;
+}
+
+.items-column {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.items-column .item {
+  width: 22%;
+  margin-bottom: 30px;
+}
+.items-column .item a {
+  font-size: 0.7em;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  display: inline-block;
+  transition: 0.3s;
+  transform: scale(1);
+}
+.items-column .item a img {
+  display: block;
+  width: 280px;
+  margin-bottom: 10px;
+}
+.items-column .item a p {
+  color: black;
+}
+.items-column .item a:hover {
+  transform: scale(1.1);
+}
+
+.view-more {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+.view-more a {
+  position: relative;
+  font-weight: 100;
+  top: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  transition: 0.5s;
+}
+.view-more a:hover {
+  opacity: 0.5;
+}
+
+.page-num {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.page-num span {
+  margin-right: 30px;
+}
+.page-num a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: darkslategrey;
+}
+
+.page-num2 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.page-num2 span {
+  margin-left: 30px;
+}
+.page-num2 a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: darkslategrey;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+footer ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul a {
+  text-decoration: none;
+  font-size: 0.7em;
+  color: black;
+  transition: 0.5s;
+}
+footer ul a:hover {
+  opacity: 0.5;
+}
+footer small {
+  font-size: 0.1em;
+}/*# sourceMappingURL=style.css.map */
