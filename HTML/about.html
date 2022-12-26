@@ -3,10 +3,11 @@
         <meta charset="UTF-8">
         <meta name="description" content="ああああ">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Product | Furniture Design</title>
+        <title>About | Furniture Design</title>
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
         <link rel="stylesheet" href="../css/responsive.css">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/shortcut-icon.jpg">
     </head>
 
     <body>
@@ -14,10 +15,8 @@
 
             <header id="header">
                 <h1 id="Furniture"><a href="index.html">Furniture Design</a></h1>
-                <div class="hamburgar-menu">
-                    <input type="checkbox" id="menu-btn-check">
-                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
-                    <div class="menu-content">
+                <nav id="navArea">
+                    <div class="inner">
                         <ul>
                             <li><a href="products.html">PRODUCTS</a></li>
                             <li><a href="about.html">ABOUT</a></li>
@@ -25,7 +24,15 @@
                             <li><a href="mailto:address@XXXX.com">CONTACT</a></li>
                         </ul>
                     </div>
-                </div>    
+                </nav>
+                
+                <div id="mask"></div>
+                
+                <div class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                </div>
+    
             </header>
                 
             <main>
@@ -59,6 +66,7 @@
             </footer>
 
         </div>
+        <script src="../script.js"></script>
     </body>
 
 </html>
